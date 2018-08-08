@@ -1,0 +1,30 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_mytube">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--<Button
+        android:id="@+id/bt_sort"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="420dp"
+        android:background="#70ff0000"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Explore"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+        -->
+
+</LinearLayout>

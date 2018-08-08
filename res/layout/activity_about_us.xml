@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mytube"
+    tools:context="com.example.likhith.mytube.AboutUsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="17sp"
+            android:text="For any Query contact us at:\n\nlife.app.developer@gmail.com\n\n\nHelpline Number:\n\nXXX-XXX-XXXX"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="51dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
